@@ -1,0 +1,75 @@
+
+* {
+   margin: 0%;
+   padding: 0%;
+   box-sizing: border-box;
+}
+
+
+.bg-dark {
+    background-color: grey;
+}
+
+
+.navbar img {
+    width: 80px;
+    margin-right: 1rem;
+
+}
+
+
+
+/*SHOWCASE*/
+
+.showcase {
+    background-image: url(/imagenes_integrador_front/ba1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    color: white;
+}
+
+.showcase .shadow {
+    background-color: rgba(0, 0, 0, 0.6);
+    width: 100%;
+    height: 100%;
+
+}
+
+.showcase .container-flex {
+    width: 80%;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+
+}
+.showcase .content {
+    width: 50%;
+    margin: bottom 20vh;;
+    text-align: right;
+
+}
+
+.showcase .btn-solid {
+   background-color: green;
+   border: green;
+   color: white;
+} 
+
+.showcase .btn-transparent {
+    background-color: rgba(255, 255, 255, 0.1);
+    border: 1px solid white; 
+    color: white;
+}
+
+.tittle {
+    text-align: center;
+}
+
+.card .btn-transparent {
+        background-color: rgba(255, 255, 255, 0.1);
+        border: 1px solid white; 
+        color: white;
+}
