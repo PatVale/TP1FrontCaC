@@ -73,3 +73,10 @@
         border: 1px solid white; 
         color: white;
 }
+
+
+.footer { 
+    background-color: rgba(23, 53, 110, 0.9);
+    color: white;
+    height: 80px;
+}
